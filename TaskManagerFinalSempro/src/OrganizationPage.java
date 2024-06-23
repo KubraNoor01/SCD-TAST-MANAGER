@@ -75,6 +75,11 @@ public class OrganizationPage extends JFrame {
 		btnNewButton_1_1_1.setFont(new Font("Tahoma", Font.BOLD, 15));
 		btnNewButton_1_1_1.setBounds(78, 187, 147, 23);
 		contentPane.add(btnNewButton_1_1_1);
+		
+		JButton btnBack = new JButton("Back");
+		btnBack.setFont(new Font("Tahoma", Font.BOLD, 15));
+		btnBack.setBounds(314, 227, 89, 23);
+		contentPane.add(btnBack);
 	}
 
 }
